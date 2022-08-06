@@ -3,8 +3,7 @@ body {
     display: flex;
     margin: 0;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
+    align-content: center;
 }
 
 .navbar {
@@ -15,6 +14,7 @@ body {
     justify-content: space-evenly;
     padding: 0% 10%;
 }
+
 
 .navbar-link {
     color: #cecece;
@@ -32,6 +32,7 @@ body {
 }
 
 .navbar-button {
+    background-color: none;
     padding: 0px 10px;
     cursor: pointer;
 }
@@ -39,27 +40,54 @@ body {
 .banner-unicef {
     background-color: #fbfbfb;
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    align-content: center;
     justify-content: center;
+    font-size: 14px;
+    padding: 20px 0;
+    text-align: center;
     height: 8%;
 }
 
-.logo-unicef {
-    width: 10%;
-
-}
-
 .enlace-unicef {
-    color: rgb(98, 153, 255);
+    text-align: center;
+    align-content: center;
+    font-size: medium;
+    color: #0066cc;
+
 }
 
-.products-highlights {
-    border: 1px solid yellowgreen;
+.model-contents {
+        background-color: rgba (255, 255, 255, 0.92);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
 }
+
+.information-buy-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.headline {
+    font-size: x-large;
+    margin: 1.2vh;
+}
+
 #macbook-air-img {
-    align-items: center;
+    background-color: #fbfbfd;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 1000px 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 1vw;
 }
+
+
 
 
 
