@@ -4,6 +4,8 @@ body {
     margin: 0;
     flex-direction: column;
     align-content: center;
+    width: 100%;
+    height: 100%;
 }
 
 .navbar {
@@ -13,6 +15,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     padding: 0% 10%;
+    height: 5%;
 }
 
 
@@ -40,28 +43,18 @@ body {
 .banner-unicef {
     background-color: #fbfbfb;
     display: flex;
+    flex-direction: row;
     align-content: center;
     justify-content: center;
-    font-size: 14px;
-    padding: 20px 0;
-    text-align: center;
     height: 8%;
+    padding: 20px;
 }
 
-.enlace-unicef {
-    text-align: center;
-    align-content: center;
-    font-size: medium;
-    color: #0066cc;
+#enlace-unicef {
+    font-size: 12;
+    padding: 0.8vw;
+    color: #06c;
 
-}
-
-.model-contents {
-        background-color: rgba (255, 255, 255, 0.92);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
 }
 
 .information-buy-links {
@@ -70,26 +63,32 @@ body {
 }
 
 .headline {
-    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55;
     margin: 1.2vh;
 }
 
-#macbook-air-img {
+#macbook-air-banner {
     background-color: #fbfbfd;
+    background-image: url("images/hero_macbookair__el7scava26mq_large.png");
     background-repeat: no-repeat;
     background-position: 50%;
-    background-size: 1000px 500px;
+    background-size: 2800px 600px;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     padding-left: 1vw;
+    margin: 0;
 }
 
-
-
-
+.macbook-air {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 20vw;
+}
 
 footer {
     border: 1px solid red;
