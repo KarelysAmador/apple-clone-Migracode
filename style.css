@@ -68,13 +68,16 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     display: flex; 
-    align-items: center;
-    justify-content: center;
+    /*align-items: center;
+    justify-content: center;*/
 }
 
 .macbook-air-texto{
+    height: 100px;
+    width: 400px;
     padding: 20%;
-    margin-bottom: 0.5rem;
+    align-items: center;
+    justify-content: center;    
 
 }
 
