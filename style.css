@@ -94,6 +94,8 @@ body {
     text-decoration: none;
     font-size: 18;
     color: #06c;
+    align-content: center;
+    justify-content: center;
 }
 
 .enlace-comprar {
@@ -101,6 +103,8 @@ body {
     text-decoration: none;
     font-size: 18;
     color: #06c;
+    align-content: center;
+    justify-content: center;
 }
  
 .iphone13-banner {
@@ -139,13 +143,9 @@ span {
     justify-content: center;
 }
 
-.Ahorro {
-    padding: 10;
-}
-
 .superpotencia {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 55;
+    font-size: 50;
     margin: 1.2vh;
     text-align: center;
     justify-content: center;
@@ -153,7 +153,7 @@ span {
 
 .superpotencia-word {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 55;
+    font-size: 50;
     margin: 1.2vh;
     text-align: center;
     justify-content: center;
@@ -161,25 +161,92 @@ span {
 
 .texto-superpotencia {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 28;
+    font-size: 25;
     margin: 1.2vh;
     text-align: center;
     justify-content: center;
 }
+
 .enlace-comprar-ahorro {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     font-size: 18;
-    padding: 98vh;
+    margin: 1.2vh;
     color: #06c;
+    justify-content: center;
+    align-items: center;
+}
+
+.Ahorro {
+    background-color: #f7f7f7;
+}
+.banner-ahorro{
+    padding: 300;
+    background-image: url(./Images/hero_bts__bcuslanw39xe_largetall.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+
+.display-flex {
+    column-count: 2;
+    display: block;
+}
+
+.Watch,
+.iphonepro {
+    height: 600px;
+    width: 600px;
+}
+
+.Watch {
+    background-color: yellow;
+    background-image: url(./Images/promo_watch_lte__djeaso7ukrsm_large.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.texto-watch {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18;
+    margin: 1.2vh;
+    text-align: center;
     justify-content: center;
 }
 
-#ahorro-banner {
-
+.text-macbook-air {
+    display: flex;
+    padding: 40px;
 }
 
+.iphonepro {
+    background-color: green;
+    background-image: url(./Images/promo_iphone13pro_avail__beadms4ldidu_large.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
+.prodigioso-iphone13 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30;
+    margin: 1.2vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.prodigioso-texto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18;
+    margin: 1.2vh;
+    text-align: center;
+    justify-content: center;
+}
+
+.
 
 /*problema con el banner
 .macbook-air-banner {
